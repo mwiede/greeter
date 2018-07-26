@@ -40,7 +40,9 @@
     </licenses>
 	
 	<properties>
-		<db.url>${DATABASE_URL}</db.url>
+		<db.url>${JDBC_DATABASE_URL}</db.url>
+		<db.user>${JDBC_DATABASE_USERNAME}</db.user>
+		<db.password>${JDBC_DATABASE_PASSWORD}</db.password>
 	</properties>
 	
     <dependencies>

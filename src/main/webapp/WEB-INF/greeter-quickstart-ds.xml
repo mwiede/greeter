@@ -23,13 +23,12 @@
     <datasource jndi-name="java:jboss/datasources/GreeterQuickstartDS"
         pool-name="greeter-quickstart" enabled="true" use-java-context="true">
         <connection-url>${db.url}</connection-url>
-        <driver>postgresql</driver>
-		<!--
+        <driver>postgresql</driver>		
         <security>
             <user-name>${db.user}</user-name>
-            <password>sa</password>
+            <password>${db.password}</password>
         </security>
-		-->
+		
     </datasource>
 </datasources>
 
