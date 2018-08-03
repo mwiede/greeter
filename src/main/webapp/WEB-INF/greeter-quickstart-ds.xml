@@ -22,11 +22,11 @@
         this in META-INF/persistence.xml -->
     <datasource jndi-name="java:jboss/datasources/GreeterQuickstartDS"
         pool-name="greeter-quickstart" enabled="true" use-java-context="true">
-        <connection-url>${db.url}</connection-url>
+        <connection-url>${enc.db.url}</connection-url>
         <driver>postgresql</driver>		
         <security>
-            <user-name>${db.user}</user-name>
-            <password>${db.password}</password>
+            <user-name>${enc.db.user}</user-name>
+            <password>${enc.db.password}</password>
         </security>
 		
     </datasource>
