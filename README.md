@@ -16,6 +16,7 @@ Setup an heroku app to use wildfly and postgresql database driver.
 
 ```console
 $ heroku create
+$ heroku addons:create heroku-postgresql:hobby-dev
 $ heroku buildpacks:clear
 $ heroku buildpacks:add heroku/java
 $ heroku buildpacks:add https://github.com/mwiede/heroku-buildpack-wildfly
