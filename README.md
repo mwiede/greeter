@@ -25,5 +25,5 @@ $ heroku buildpacks:add https://github.com/mwiede/heroku-buildpack-wildfly-postg
 
 Deploy
 ```console
-git push heroku master
+$ git push heroku master
 ```
